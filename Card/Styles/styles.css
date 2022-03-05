@@ -1,0 +1,77 @@
+.cardImg {
+  width: "100%";
+}
+.txt-cardNumber {
+  position: absolute;
+  top: 275px;
+  left: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+.txt-name {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: white;
+  top: 415px;
+  left: 70px;
+}
+.txt-exp {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: white;
+  top: 415px;
+  left: 475px;
+}
+.main-container {
+  display: flex;
+  align-content: flex-start;
+}
+.items-form {
+  display: flex;
+  justify-content: space-between;
+}
+.form-div {
+  display: flex;
+  flex-flow: column;
+  margin: 25px;
+  margin-top: 40px;
+}
+.input {
+  border-radius: 5px;
+  border-color: #e7e1e1;
+  height: 50px;
+  width: 365px;
+}
+.label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: gray;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.randomButton {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: rgba(105, 102, 102, 0.397);
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 255, 255, 0.616);
+  cursor: pointer;
+}
+.mainTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  margin-top: 35px;
+  color: rgba(119, 114, 114, 0.959);
+  position: relative;
+  left: 450px;
+}
+@media screen and (max-width: 1200px) {
+  .main-container {
+    display: flex;
+    flex-flow: column;
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <title>Task 2</title>
+</head>
+<body>
+    <h1 class="mainTitle">Payment Information</h1>
+    <div class="container">
+        <div class="main-container">
+            <div class="card-div">
+                <img class="cardImg" src="./Img/card-image.png" alt="card">
+                <p class="txt-cardNumber" id="txt-cardNumber">1234 1234 1234 1234</p>
+                <p class="txt-name" id="txt-name">JONH DOE</p>
+                <p class="txt-exp" id="txt-exp">01/23</p>
+            </div>
+            <div class="form-div">
+                <label class="label">Name</label>
+                <input id="inputName" class="input" type="text" oninput="copyName()"> 
+                <div class="items-form">
+                    <label class="label">Card Number</label>
+                    <button id="rondomButton" class="randomButton" onclick="generateRandom()">generate random</button>
+                </div>
+                <input id="inputCardNumber" class="input" type="text" oninput="copyNumber()">
+                <label class="label">Expiration(mm/yy)</label>
+                <input id="inputExpiration"  class="input" type="text" oninput="copyExp()">
+            </div>
+        </div>
+    </div>
+  
+</body>
+<script src="./Scripts/script.js"></script>
+</html> 

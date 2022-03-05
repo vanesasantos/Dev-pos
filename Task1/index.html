@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dev pos</title>
+</head>
+<body>
+    <div class="header"> 
+        <nav class="menu">
+            <img class="logo" src="/Img/logo.png" />
+            <button class="hamburguer" id="hamburguer">
+                <p>&#9776;</p>
+            </button>
+            <ul class="nav-ul" id="nav-ul">
+                <li class="navItem itemMenu">About us</li>
+                <li class="navItem dropdown itemMenu">
+                    <span>Resources</span>
+                    <ul class="dropdown-content">
+                        <li class="dropdown-item">Item 1</li>
+                        <li class="dropdown-item">Item 2</li>
+                        <li class="dropdown-item">Item 3</li>
+                    </ul>
+                </li>
+                <li class="navItem  contactUsButton">Contact Us</li>
+            </ul>
+
+        </nav>
+    </div>
+  <div class="block2"> 
+    <div class="block2-left"> 
+      <h1 class="block2-title title-big">Be Smart, </br>
+        Think Smart, 
+        Save Money</h1>
+      <h3 class="block-subtitle-big">Compare your take-home today</h3>
+      <form class= "block2-form" onsubmit="return false">
+        <input class="rounded-input darker-input" type="tel" id="phoneNumber" name="pNumber" placeholder="Phone Number"><br>
+        <div class="block2-items">
+            <input class="rounded-input darker-input" type="text" id="dRate" name="dRate" placeholder="Day Rate"><br><br>
+            <input class="rounded-input primary-submit" type="submit" value="Submit" onclick="onSubmit()">
+        </div>
+      </form> 
+    </div>
+    <img class="mainImg" src="/Img/beSmart.png">
+  </div>
+  <div class="block3">
+    <h1 class="block-title">Features</h1>
+    <hr class = "small-divider"> 
+    <h3 class="block-subtitle">OUR KEY COMPETITIVE ADVANTAGES</h3>
+    <div class="block3-items">
+      <div class="block3-item">
+        <img class="features-items-icon" src="/Img/crown.png">
+        <h2 class="features-items-header">Header</h2>
+        <p class="features-items-text">Interdum et malesuada fames ac ante primis in faucibus. Dius vitae sem lacus. ut eros vel libero pharetra pharetra. Praesenr nec pallentesque risus.
+        </p> 
+      </div>
+      <div class="block3-item">
+        <img class="features-items-icon" src="/Img/handshake.png">
+        <h2 class="features-items-header">Header</h2>
+        <p class="features-items-text">Interdum et malesuada fames ac ante primis in faucibus. Dius vitae sem lacus. ut eros vel libero pharetra pharetra. Praesenr nec pallentesque risus.
+        </p>
+      </div>
+      <div class="block3-item">
+        <img class="features-items-icon" src="/Img/money.png">
+        <h2 class="features-items-header">Header</h2>
+        <p class="features-items-text">Interdum et malesuada fames ac ante primis in faucibus. Dius vitae sem lacus. ut eros vel libero pharetra pharetra. Praesenr nec pallentesque risus.
+        </p> 
+      </div>
+    </div>
+  </div>
+  <div class="block4">
+      <div class="block4-item">
+        <label class="block4-label">Number of employees</label>
+        <input class="rounded-input block4-input" type="text" id="numberEmployees" name="numberEmployees" />
+      </div>
+      <div class="block4-item">
+        <label class="block4-label">For the payroll, I use</label>
+             <select class="rounded-input block4-input" id="payRoll" name="payRoll">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+      <div class="block4-item">
+        <input class="transparent-button" type="submit" value="Compare plans">
+      </div>
+  </div>
+  <div class="block5">
+    <h1 class="block-title">Price</h1>
+    <hr class = "small-divider"> 
+    <h3 class="block-subtitle">COMPARE OUR TARIFF PLANS</h3>
+    <div class="tiers">
+        <div class="tier">
+            <h1 class="tier-title lighter-title">Tier 1</h1>
+            <div class="div-subtitle">
+                <h2 class="tier-subtitle lighter-subtitle"><sup class="signoP">$ </sup>11.99</h2>
+                <p class="tier-subtitle-anexo-light">/ month</p>
+            </div>
+            
+            <hr class = "dotline-divider-light"> 
+            <p class="tier-item">Some option number 1</p>
+            <p class="tier-item">Some option number 2</p>
+            <p class="tier-item">Some option number 3</p>
+            <p class="tier-item">Some option number 4</p>
+            <p class="tier-item">Some option number 5</p>
+            <div class="div-button">
+                <input class="tier-button lighter-button rounded-input" type="submit" value="Choose" />
+            </div>
+        </div>
+        <div class="tier">
+            <h1 class="tier-title darker-title">Tier 2</h1>
+            <div class="div-subtitle">
+                <h2 class="tier-subtitle darker-subtitle"><sup class="signoP">$ </sup>19.99</h2>
+                <p class="tier-subtitle-anexo-dark">/ month</p>
+            </div>
+            <hr class = "dotline-divider-dark"> 
+            <p class="tier-item">Some option number 1</p>
+            <p class="tier-item">Some option number 2</p>
+            <p class="tier-item">Some option number 3</p>
+            <p class="tier-item">Some option number 4</p>
+            <p class="tier-item">Some option number 5</p>
+            <div class="div-button">
+                <input class="tier-button darker-button rounded-input" type="submit" value="Choose" />
+            </div>
+           </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="top-footer">
+        <div class="main-footer">
+            <img class="" src="/Img/dark-logo.png">
+            <p class="footer-text">Praesent varius feugiat dolor, a pulvinar leo facilisis blandit. Sed quis lobortis mauris, et lacinia justo. Sed sollicitudin risus consequat pulvinar efficitur. Praesent ac augue in lorem laoreet bibendum. Vestibulum mattis accumsan nulla eget sagittis. </p>
+        </div>
+        <div class="footer-item">
+            <h1 class="footer-title">Documents</h1>
+            <p class="footer-text">Privacy policy</p>
+            <p class="footer-text">Terms and conditions</p>
+        </div>
+        <div class="footer-item">
+            <h1 class="footer-title">Menu</h1>
+            <p class="footer-text">About Us</p>
+            <p class="footer-text">Resources</p>
+            <p class="footer-text">Contact Us</p>
+        </div>
+        <div class="footer-item">
+            <h1 class="footer-title">About company</h1>
+            <p class="footer-text">Company no.: 12345678</p>
+            <p class="footer-text">VAT Number: 123 4567 89</p>
+        </div>
+        <div class="footer-item">
+            <h1 class="footer-title">Follow Us</h1>
+            <div>
+                <img src="/Img/fb-icon.png" alt="">
+                <img src="/Img/ln-icon.png" alt="">
+            </div>
+        </div>
+    </div>
+    <hr class="footer-divider">
+    <p class="footer-text centered-text"> Trinity Court, Molly Millars Ln, Wokingham RG41 2PY, United Kingdom
+    </p>
+  </div>
+  <div id="popup-container" class="popup-container">
+    <div id="popup" class="popup">
+        <span class="popup-title" id="popup-title">
+            Pop-up title
+        </span>
+        <hr class = "popup-divider">
+        <p class="popup-body" id="popup-body">Body</p>
+        <button class="popup-button" id="popup-button"  onclick="closePopup()">OK</button>
+    </div>
+  </div>
+  
+</body>
+<script type="text/javascript" src="/Scripts/script.js"></script>
+</html>
